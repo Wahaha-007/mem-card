@@ -1,0 +1,140 @@
+body {
+    /*color: #f2f8f9;
+    background-color: gray;*/
+    color: #f2f8f9;
+    background-image: url('./pic/background2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Roboto, sans-serif;
+    text-shadow: 0 0 4px black;
+}
+
+img {
+    width: auto;
+    height: 160px;
+}
+
+.cName {
+    color: orangered;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+.cards {
+    width: 100px;
+    height: 200px;
+    background-color: cadetblue;
+    margin: 30px;
+}
+
+.mcenter {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+
+/* Card Style From : https://codepen.io/andrewsims/pen/mQoYwz */
+
+.card2 {
+    animation: fadeInAnimation ease 2s;
+    display: block;
+    top: 0px;
+    position: relative;
+    background-color: #fbfccf;
+    border-radius: 4px;
+    /*padding: 32px 24px;*/
+    padding: 20px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+    width: 100px;
+    height: 200px;
+}
+
+.card2:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*.card2:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #00838d;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+}
+
+.card2:hover:before {
+    transform: scale(2.15);
+}
+*/
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
