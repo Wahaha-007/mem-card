@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mem-card/static/css/main.f3fc62dd.css",
+    "main.js": "/mem-card/static/js/main.278046b6.js",
+    "static/media/background2.jpg": "/mem-card/static/media/background2.151b97f26f2ee4e2b3b4.jpg",
+    "index.html": "/mem-card/index.html",
+    "main.f3fc62dd.css.map": "/mem-card/static/css/main.f3fc62dd.css.map",
+    "main.278046b6.js.map": "/mem-card/static/js/main.278046b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3fc62dd.css",
+    "static/js/main.278046b6.js"
+  ]
+}
